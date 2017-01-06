@@ -15,7 +15,7 @@ Description:
 3. download the default ".spacemacs" config file
 4. rename it to ".spacemacs" in home directory
 5. edit ".spacemacs" file, add some layer, like "org, html". Remember "python" layer is
-terrible
+terrible.
 6. start emacs25. emacs25 is better than emacs24.5 
 7. wait for the package to retrieve, about 120 packages.
 
@@ -26,4 +26,8 @@ note: to make emacs package download faster, have to do:
   export https_proxy="http://127.0.0.1:8123"
 - or add this two line in .zshrc or .bashrc, then source it.
 
+Oh, don't forget to change the font and themes
+Monaco, 16
+jbeans, grandshell
 
+ 
