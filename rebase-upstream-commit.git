@@ -1,0 +1,15 @@
+git add remote upstream git@github.com:xxxxx
+git fetch upstream
+
+git checkout master (do this on master branch)
+
+git clean -f (delete all untracked files)
+git reset --hard (guarantee no changes on tracked files)
+
+git rebase upstream/master (currenly on local master branch)
+
+# this code above will make the local master branch the same with upstream master branch 
+
+git branch post-demo (create a new branch)
+git checkout post-demo (be on that branch)
+git rebase upstream/post-demo (now the local post-demo branch is the same with upstream/post-demo)
