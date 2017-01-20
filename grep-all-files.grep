@@ -1,0 +1,8 @@
+grep -r dubing ./
+
+# this will find all string "dubing" in all files and subdirectories of current directory
+# -r: recursive
+
+grep -rl dubing ./
+
+# grep recursively and only output the file names
