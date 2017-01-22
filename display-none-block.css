@@ -1,0 +1,10 @@
+aside.ui.four.wide.column {
+  display: none;
+  /* display: block; */
+}
+
+/* This will display the element or make it disappear.
+ * Convenient when need to hide some elements
+ *
+ * Another way is to set visibility: hidden
+ */
