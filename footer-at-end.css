@@ -1,0 +1,20 @@
+# The HTML
+<body class="Site">
+  <header>…</header>
+  <main class="Site-content">…</main>
+  <footer>…</footer>
+</body>
+
+# The CSS
+
+.Site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.Site-content {
+  flex: 1;
+}
+
+# this will keep the footer part at the end of the page even if there is no enought content in the main body
