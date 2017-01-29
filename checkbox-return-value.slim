@@ -1,0 +1,39 @@
+.ui.modal
+  i.close.icon 
+  .header Test modal form 
+  .content
+    form.ui.form id="gform" method="POST" action="https://script.google.com/macros/s"
+
+      .field
+        label for="name" Name:
+        input id="name" name="name" placeholder="What you want me to call you"
+
+      .field
+        label for="message" Message:
+        textarea id="message" name="message" rows="7" placeholder="Tell me what's on your mind"
+
+      .field
+        label for="email" Your Email Address:
+        input id="email" name="email" type="email" value="" placeholder="your.name@email.com"
+
+      .grouped.fields
+        label What color do you love? 
+        .field
+          .ui.radio.checkbox
+            input type="radio" id="color1" name="response" value="red" checked="checked"
+            label for="color3" Red 
+
+        .field
+          .ui.radio.checkbox
+            input type="radio" id="tea1" value="green" name="response" 
+            label for="tea3" Green
+
+        .field
+          .ui.radio.checkbox
+            input type="radio" id="check1" value="blue" name="response"
+            label for="check3" Blue 
+
+      button.ui.button type="submit" Send
+
+
+/add value attribute to radio checkbox, then I can get the customized returned value from the input
