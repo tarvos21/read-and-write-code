@@ -1,0 +1,3 @@
+grep dubing * -lR
+
+# this will output all files containing word "dubing" in current directory
