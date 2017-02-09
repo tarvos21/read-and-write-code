@@ -1,0 +1,15 @@
+# db1234 is the commit I want to split into two or more commits
+
+git rebase -i db1234^
+
+# replace the "pick" before db1234 to "e", which means "edit" commit
+# when back to terminal
+
+git reset HEAD~
+
+# this will unstaged to changes in the commit, then
+
+git add -p filename
+
+# or whatever, if files are separated, you can just commit them one by one
+# the idea here is that, rebase then reset, quite good!
