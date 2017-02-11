@@ -1,0 +1,8 @@
+# 1. use "git add ." to commit all files currently
+# 2. modify the ".gitignore" file, then
+
+git rm -rf --cached .
+git add .
+git commit -m "new files with new .gitignore"
+
+# this will remove the files list in the latest ".gitignore" file
