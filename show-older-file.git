@@ -1,0 +1,9 @@
+git show HEAD~n:src/theme.config
+
+# n is the commit history number
+
+git show HEAD@{2017-2-14}:filename.txt
+
+# get it from "git reflog"
+
+# remember: the path is relative to the root of repository
