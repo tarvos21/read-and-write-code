@@ -1,0 +1,4 @@
+git diff src
+
+# this will show the changes in "src" directory, wonderful to know this, no
+# need to check files one by one!
