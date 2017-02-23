@@ -1,0 +1,20 @@
+# suppose you want to write and test a new piece of code
+
+git branch new-feature    # create new branch
+git checkout new-feature    # checkout to new branch
+
+vim docs.js  # modify the code
+
+ga docs.js
+gcmsg "Modify docs.js"    # commit the change
+
+# then hash of the new commit is 1234ab, for example
+
+# if it pass the test, and works good
+# then you can add it to the master branch, or the branch you mainly work on
+
+git checkout master
+git cherry-pick 1234ab
+
+# you are done! the new change and commit is now on master branch! Great!
+# Cute cherry-pick!
