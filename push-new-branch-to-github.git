@@ -1,0 +1,7 @@
+git checkout -b new-branch
+
+# do some editing and commit
+
+git push -u origin new-branch
+
+# all is done with that, newly created local branch will be pushed to Github, and tracked.
