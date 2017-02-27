@@ -1,0 +1,11 @@
+# you do some changes, but not want to commit
+# or you want to rebase which complains about uncommit changes
+# you can use stash to temporarily place the changes
+
+git stash    # stash changes, now repo is clean
+
+git list    # check out all stashes
+
+git apply    # apply the latest stash, i.e., the recent changes
+
+git apply stash@{3}    # apply stash@{3} in the stash list
