@@ -1,0 +1,9 @@
+# if you have two branch: master and template
+# you make changes on tempalte branch and commit them all as sha 1234ab
+# then you want the changes applied to master branch
+
+git checkout master
+git cherry-pick template
+
+# Done! cherry-pick a branch, brilliant, it will pick the newest commit on that
+# brach to master branch.
